@@ -3033,6 +3033,7 @@
 				F143C2F01E4A4CD400CFDE3A /* Embed Frameworks */,
 				F10307651E7D5B2C0059FEC7 /* Copy Frameworks */,
 				83E282AC20BC1840005FBE88 /* Embed App Extensions */,
+				4BFBA46C2538096E002043B2 /* Generate Open Source Acknowledgements */,
 			);
 			buildRules = (
 			);
@@ -3575,6 +3576,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SOURCE_ROOT/check_version.sh\"\n";
+		};
+		4BFBA46C2538096E002043B2 /* Generate Open Source Acknowledgements */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Open Source Acknowledgements";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION = \"Debug\" ]; then\n    license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n";
 		};
 		8558AA7D20EE3CB200A346E9 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
