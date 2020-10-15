@@ -1,0 +1,15 @@
+name: Kingfisher, nameSpecified: Kingfisher, owner: onevcat, version: 5.14.1
+
+name: lottie-ios, nameSpecified: Lottie, owner: airbnb, version: 3.1.8
+
+name: OHHTTPStubs, nameSpecified: OHHTTPStubs, owner: AliSoftware, version: 9.0.0
+
+name: PunycodeSwift, nameSpecified: Punycode, owner: gumob, version: 
+
+name: swifter, nameSpecified: Swifter, owner: httpswift, version: 1.5.0
+
+name: Toast-Swift, nameSpecified: Toast, owner: scalessec, version: 5.0.1
+
+add-version-numbers: false
+
+LicensePlist Version: 3.0.4
